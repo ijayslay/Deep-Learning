@@ -26,17 +26,6 @@ Loss/Cost Functions: Explores common loss functions (e.g., binary cross-entropy,
 Regularization: Applies L1 (Lasso) and L2 (Ridge) regularization to prevent overfitting in models.
 IoT Integration: Links to IoT-based soil health monitoring (e.g., pH, NPK levels) for real-world agricultural applications.
 
-Prerequisites
-
-Python: Version 3.8 or higher.
-Libraries:
-TensorFlow (tensorflow>=2.10.0)
-Keras (keras>=2.10.0)
-NumPy (numpy>=1.21.0)
-scikit-learn (scikit-learn>=1.0.0)
-Matplotlib (matplotlib>=3.5.0) for visualizations
-Pandas (pandas>=1.3.0) for data handling
-
 
 Tools:
 Google Colab (recommended for cloud-based execution) or Jupyter Notebook.
@@ -77,24 +66,6 @@ Download Dataset (for CNN):
 Obtain a plant image dataset (e.g., PlantVillage: https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset).
 Place the dataset in the data/ folder or update the dataset path in the code.
 
-
-
-File Structure
-deep-learning-plant-practicals/
-├── data/                    # Dataset folder (e.g., plant images for CNN)
-├── notebooks/               # Jupyter/Colab notebooks
-│   ├── cnn_plant.ipynb      # CNN for plant disease detection
-│   ├── gradient_descent.ipynb # Gradient descent implementations
-│   ├── logistic_regression.ipynb # Logistic regression for soil health
-│   ├── loss_functions.ipynb  # Loss/cost function examples
-│   ├── regularization.ipynb  # L1/L2 regularization examples
-├── scripts/                 # Python scripts for modular code
-│   ├── cnn_model.py         # CNN model definition
-│   ├── optimization.py      # Gradient descent functions
-│   ├── classifiers.py       # Logistic regression implementation
-├── requirements.txt         # List of dependencies
-├── README.md                # This file
-└── LICENSE                  # License file
 
 Usage
 
